@@ -1,0 +1,67 @@
+package me.lwb.androidtool
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.res.painterResource
+
+
+object Painters{
+    val adb: Painter @Composable get() = painterResource("painter/adb.png")
+    val app_package: Painter @Composable get() = painterResource("painter/app_package.svg")
+    
+    object File{
+        val _3d: Painter @Composable get() = painterResource("painter/file/3d.svg")
+        val android: Painter @Composable get() = painterResource("painter/file/android.svg")
+        val audio: Painter @Composable get() = painterResource("painter/file/audio.svg")
+        val c: Painter @Composable get() = painterResource("painter/file/c.svg")
+        val cmake: Painter @Composable get() = painterResource("painter/file/cmake.svg")
+        val console: Painter @Composable get() = painterResource("painter/file/console.svg")
+        val cpp: Painter @Composable get() = painterResource("painter/file/cpp.svg")
+        val dart: Painter @Composable get() = painterResource("painter/file/dart.svg")
+        val database: Painter @Composable get() = painterResource("painter/file/database.svg")
+        val docker: Painter @Composable get() = painterResource("painter/file/docker.svg")
+        val drawio: Painter @Composable get() = painterResource("painter/file/drawio.svg")
+        val exe: Painter @Composable get() = painterResource("painter/file/exe.svg")
+        val folder_base_open: Painter @Composable get() = painterResource("painter/file/folder-base-open.svg")
+        val folder_base: Painter @Composable get() = painterResource("painter/file/folder-base.svg")
+        val git: Painter @Composable get() = painterResource("painter/file/git.svg")
+        val gitlab: Painter @Composable get() = painterResource("painter/file/gitlab.svg")
+        val go: Painter @Composable get() = painterResource("painter/file/go.svg")
+        val gradle: Painter @Composable get() = painterResource("painter/file/gradle.svg")
+        val groovy: Painter @Composable get() = painterResource("painter/file/groovy.svg")
+        val h: Painter @Composable get() = painterResource("painter/file/h.svg")
+        val hex: Painter @Composable get() = painterResource("painter/file/hex.svg")
+        val hpp: Painter @Composable get() = painterResource("painter/file/hpp.svg")
+        val html: Painter @Composable get() = painterResource("painter/file/html.svg")
+        val image: Painter @Composable get() = painterResource("painter/file/image.svg")
+        val jar: Painter @Composable get() = painterResource("painter/file/jar.svg")
+        val java: Painter @Composable get() = painterResource("painter/file/java.svg")
+        val javascript: Painter @Composable get() = painterResource("painter/file/javascript.svg")
+        val json: Painter @Composable get() = painterResource("painter/file/json.svg")
+        val kotlin: Painter @Composable get() = painterResource("painter/file/kotlin.svg")
+        val lib: Painter @Composable get() = painterResource("painter/file/lib.svg")
+        val log: Painter @Composable get() = painterResource("painter/file/log.svg")
+        val lua: Painter @Composable get() = painterResource("painter/file/lua.svg")
+        val nodejs: Painter @Composable get() = painterResource("painter/file/nodejs.svg")
+        val pdf: Painter @Composable get() = painterResource("painter/file/pdf.svg")
+        val perl: Painter @Composable get() = painterResource("painter/file/perl.svg")
+        val php: Painter @Composable get() = painterResource("painter/file/php.svg")
+        val proto: Painter @Composable get() = painterResource("painter/file/proto.svg")
+        val python: Painter @Composable get() = painterResource("painter/file/python.svg")
+        val r: Painter @Composable get() = painterResource("painter/file/r.svg")
+        val rc: Painter @Composable get() = painterResource("painter/file/rc.svg")
+        val readme: Painter @Composable get() = painterResource("painter/file/readme.svg")
+        val ruby: Painter @Composable get() = painterResource("painter/file/ruby.svg")
+        val rust: Painter @Composable get() = painterResource("painter/file/rust.svg")
+        val settings: Painter @Composable get() = painterResource("painter/file/settings.svg")
+        val svg: Painter @Composable get() = painterResource("painter/file/svg.svg")
+        val table: Painter @Composable get() = painterResource("painter/file/table.svg")
+        val typescript: Painter @Composable get() = painterResource("painter/file/typescript.svg")
+        val video: Painter @Composable get() = painterResource("painter/file/video.svg")
+        val vue: Painter @Composable get() = painterResource("painter/file/vue.svg")
+        val word: Painter @Composable get() = painterResource("painter/file/word.svg")
+        val xml: Painter @Composable get() = painterResource("painter/file/xml.svg")
+        val yaml: Painter @Composable get() = painterResource("painter/file/yaml.svg")
+        val zip: Painter @Composable get() = painterResource("painter/file/zip.svg")
+    
+    }
+}
